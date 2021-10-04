@@ -1,0 +1,74 @@
+.score {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+p.name {
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+p.university {
+  color: grey;
+  margin: 0px;
+  padding: 0px;
+  font-style: italic;
+  font-size: 12px;
+}
+.s1 {
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+}
+.s1 {
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+}
+.s2 {
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+}
+button.add {
+  border-radius: 100px;
+  border: none;
+  color: white;
+  background-color: red;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+}
+button.add:hover {
+  background: green;
+}
+button.sub {
+  border-radius: 100px;
+  border: none;
+  color: black;
+  background-color: greenyellow;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+}
+button.sub:hover {
+  background: red;
+}
+p.score span {
+  background: cyan;
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
